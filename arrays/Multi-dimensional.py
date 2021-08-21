@@ -10,5 +10,5 @@ for i in range(rows):
 b = [[0 for x in range(cols)] for y in range(rows)]
 for i in range(cols):
     for j in range(rows):
-        B[i][j]=matrix[j][i]
+        b[i][j]=matrix[j][i]
 print(matrix)
