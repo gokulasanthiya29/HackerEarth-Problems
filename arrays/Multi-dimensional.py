@@ -1,6 +1,6 @@
 rows, cols = input().split()
 
-matrix = []
+matrix = {}
 
 for i in range(int(rows)):
     matrix[i] = input().split()
