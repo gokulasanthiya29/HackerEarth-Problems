@@ -1,14 +1,11 @@
-rows, cols = map(int, input().split())
+rows, cols = input().split()
 
 matrix = []
-for i in range(rows):
-    a = []
-    for j in range(cols):
-        a.append(int(input()))
-    matrix.append(a)
 
-b = [[0 for x in range(cols)] for y in range(rows)]
-for i in range(cols):
-    for j in range(rows):
-        b[i][j]=matrix[j][i]
-print(matrix)
+for i in range(int(rows)):
+    matrix[i] = input().split()
+
+for i in range(int(cols)):
+    for j in range(int(rows)):
+        print(matrix[j][i], sep="", end=" ")
+    print('\n')
